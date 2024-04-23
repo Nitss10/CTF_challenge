@@ -4,10 +4,10 @@ const validateBtn = document.getElementById('validateBtn');
 const resultElement = document.getElementById('result');
 
 // X's message
-codeBlocks[0].textContent = '2A.63BC6EB0B7C3504C48AE';
+codeBlocks[0].textContent = '42.389594';
 
 // Y's message
-codeBlocks[1].textContent = '-48.86D00B45AE5FFA3B9AE1';
+codeBlocks[1].textContent = '-72.526612';
 
 validateBtn.addEventListener('click', () => {
     const userAnswer = userInput.value.toLowerCase().trim();
