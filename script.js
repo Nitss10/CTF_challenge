@@ -12,11 +12,11 @@ codeBlocks[1].textContent = 'Y_MESSAGE_PLACEHOLDER';
 validateBtn.addEventListener('click', () => {
     const userAnswer = userInput.value.toLowerCase().trim();
 
-    if (userAnswer === 'campuspond' || userAnswer === 'campus pond') {
-        resultElement.innerHTML = `<a href="https://www.geeksforgeeks.org/print-longest-common-substring/" target="_blank">https://www.geeksforgeeks.org/print-longest-common-substring/</a>`;
+    if (userAnswer === 'VAR1_PLACEHOLDER' || userAnswer === 'VAR2_PLACEHOLDER') {
+        resultElement.innerHTML = `<a href="LINK1_PLACEHOLDER" target="_blank">LINK1_PLACEHOLDER</a>`;
         console.log('SECRET_WORD_PLACEHOLDER');
     } else if (userAnswer === 'UNLOCK_CODE_PLACEHOLDER') {
-        resultElement.innerHTML = `Congratulations, level unlocked<br><a href="https://bit.ly/lastVaultFlag" target="_blank">https://bit.ly/lastVaultFlag</a>`;
+        resultElement.innerHTML = `Congratulations, level unlocked<br><a href="LINK2_PLACEHOLDER" target="_blank">LINK2_PLACEHOLDER</a>`;
     } else {
         resultElement.textContent = "I'm not that easy, try harder to decrypt";
     }
