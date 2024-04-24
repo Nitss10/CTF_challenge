@@ -1,5 +1,10 @@
-// functions/data.js
-exports.handler = async () => {
+exports.handler = async (event, context) => {
+  const headers = {
+    'Access-Control-Allow-Origin': '*', // Allow requests from any origin
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Methods': 'GET'
+  };
+
     const data = {
       X_MESSAGE: 'SGF2ZSBhIGdyZWF0IGRheQ==', // Base64 encoded string: "Have a great day"
       Y_MESSAGE: 'bXVkaGmNdHNANHBt', // Base64 encoded string: "mudhuts@4pm"
@@ -13,9 +18,7 @@ exports.handler = async () => {
   
     return {
       statusCode: 200,
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers,
       body: JSON.stringify(data),
     };
   };
