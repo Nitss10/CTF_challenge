@@ -11,7 +11,7 @@ exports.handler = async (event, context) => {
       VAR1: 'campuspond',
       VAR2: 'campus pond',
       LINK1: 'https://www.geeksforgeeks.org/print-longest-common-substring/',
-      LINK2: 'https://bit.ly/lastVaultFlag',
+      LINK2: 'https://bit.ly/lastVaultFlagUp',
       SECRET_WORD: 'wipuspocus',
       UNLOCK_CODE: 'puspo'
     };
